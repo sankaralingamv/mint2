@@ -12,8 +12,6 @@ const Index = () => {
         <div className="flex mb-[-33px] w-full max-w-[1016px] flex-col items-stretch max-md:max-w-full max-md:mb-2.5">
           <EventHeader />
 
-          <EventNotification />
-
           <h1 className="text-black text-[40px] font-semibold mt-10 max-md:max-w-full max-md:mr-[9px]">
             StarkCon IIT Madras ~ StarkWare x Web3Chennai
           </h1>
@@ -64,6 +62,8 @@ const Index = () => {
             </button>
           </div>
 
+          <EventNotification />
+
           <EventInformation />
         </div>
       </main>
@@ -72,3 +72,4 @@ const Index = () => {
 };
 
 export default Index;
+
