@@ -1,34 +1,36 @@
+
 import React from "react";
 
 export const EventHeader = () => {
   return (
-    <header className="flex w-full items-stretch gap-5 whitespace-nowrap flex-wrap justify-between max-md:max-w-full">
-      <div className="text-[rgba(237,109,100,1)] text-lg font-semibold my-auto">
+    <header className="flex w-full items-center justify-between">
+      <div className="text-[#ED6D64] text-lg font-semibold">
         Freshmint
       </div>
-      <nav className="flex items-center gap-10 text-base text-black font-normal max-md:max-w-full">
+      <nav className="flex items-center gap-10">
         <a
           href="#events"
-          className="self-stretch my-auto hover:text-[rgba(237,109,100,1)]"
+          className="text-[#1A1F2C] hover:text-[#ED6D64] transition-colors"
         >
           Events
         </a>
         <a
           href="#community"
-          className="self-stretch my-auto hover:text-[rgba(237,109,100,1)]"
+          className="text-[#1A1F2C] hover:text-[#ED6D64] transition-colors"
         >
           Community
         </a>
         <a
           href="#profiles"
-          className="self-stretch my-auto hover:text-[rgba(237,109,100,1)]"
+          className="text-[#1A1F2C] hover:text-[#ED6D64] transition-colors"
         >
           Profiles
         </a>
-        <div className="self-stretch bg-[rgba(237,109,100,1)] gap-2.5 text-white px-[25px] py-2 rounded-[20px] max-md:px-5 cursor-pointer hover:bg-[rgba(237,89,80,1)]">
+        <button className="bg-[#ED6D64] text-white px-6 py-2 rounded-full hover:bg-[#E15A51] transition-colors">
           0x3e3c…4b77
-        </div>
+        </button>
       </nav>
     </header>
   );
 };
+
